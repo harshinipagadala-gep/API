@@ -1,0 +1,65 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="log4netConfig.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="log4netConfig.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GEP.Cumulus.Azure" Version="8.0.4" />
+    <PackageReference Include="GEP.Cumulus.Caching" Version="8.0.6" />
+    <PackageReference Include="Gep.Cumulus.CSM.Config" Version="8.0.2" />
+    <PackageReference Include="Gep.Cumulus.CSM.Entities" Version="7.0.15" />
+    <PackageReference Include="Gep.Cumulus.Encryption" Version="8.0.3" />
+    <PackageReference Include="GEP.Cumulus.Logging" Version="8.0.7" />
+    <PackageReference Include="GEP.SMART.CommunicationLayer" Version="8.0.8" />
+    <PackageReference Include="GEP.SMART.Configuration" Version="8.0.4" />
+    <PackageReference Include="GEP.SMART.HttpCommunicationLayer" Version="8.0.7" />
+    <PackageReference Include="GEP.Smart.Platform.SearchCoreIntegretor.Entities" Version="8.0.1" />
+    <PackageReference Include="GEP.Smart.Platform.SearchCoreIntegretor.Helpers" Version="8.0.6" />
+    <PackageReference Include="GEP.SMART.Security.ActionFiltersCore" Version="8.0.8" />
+    <PackageReference Include="GEP.SMART.Security.AzureKeyVault" Version="8.0.2" />
+    <PackageReference Include="GEP.SMART.Security.ClaimsManagerCore" Version="8.0.8" />
+    <PackageReference Include="GEP.SMART.Storage.AzureBlob" Version="8.0.5" />
+    <PackageReference Include="GEP.SMART.Storage.AzureSQL" Version="8.0.6" />
+    <PackageReference Include="GEP.SMART.Storage.AzureTable" Version="8.0.4" />
+    <PackageReference Include="GEP.Smart.User.EventLogging" Version="8.0.6" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="2.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.9" />
+    <PackageReference Include="Polly" Version="6.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="3.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\BusinessObjects\GEP.SMART.Requisition.BusinessEntities\GEP.SMART.Requisition.BusinessEntities.csproj" />
+    <ProjectReference Include="..\..\BusinessObjects\GEP.SMART.Requisition.BusinessObjects\GEP.SMART.Requisition.BusinessObjects.csproj" />
+    <ProjectReference Include="..\..\BusinessObjects\GEP.SMART.Requisition.DataAccessObjects\GEP.SMART.Requisition.DataAccessObjects.csproj" />
+    <ProjectReference Include="..\..\BusinessObjects\GEP.SMART.Settings.Entities\GEP.SMART.Settings.Entities.csproj" />
+    <ProjectReference Include="..\..\BusinessObjects\GEP.SMART.Settings\GEP.SMART.Settings.csproj" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JSONSchema="" /></VisualStudio></ProjectExtensions>
+
+  <ItemGroup>
+    <Reference Include="GEP.Cumulus.OrganizationStructure.Entities">
+      <HintPath>..\..\..\..\GEP PlatformServices\DLL\GEP.Cumulus.OrganizationStructure.Entities.dll</HintPath>
+    </Reference>
+    <Reference Include="Gep.Cumulus.Partner.Entities">
+      <HintPath>..\..\..\..\GEP PlatformServices\DLL\Gep.Cumulus.Partner.Entities.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

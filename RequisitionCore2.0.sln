@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{D7D70757-9EF6-41B9-A692-BF6AC5048A76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessObjects", "BusinessObjects", "{516A05A4-786C-439F-BA04-DBB0A46E9BA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{04BFD312-F5BD-4CCF-82E9-2B5E4CBFFD28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C9C5257C-9997-4D1E-8694-FC20DC23BA6F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GEP.SMART.Requisition.API", "GEP.SMART.Requisition.API\GEP.SMART.Requisition.API.csproj", "{9EA6830C-D82A-47C0-8BBA-0DCA8E4A482C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GEP.SMART.Requisition.BusinessObjects", "..\BusinessObjects\GEP.SMART.Requisition.BusinessObjects\GEP.SMART.Requisition.BusinessObjects.csproj", "{6B930661-8096-4B06-AAEE-7F9E73652D76}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GEP.SMART.Requisition.DataAccessObjects", "..\BusinessObjects\GEP.SMART.Requisition.DataAccessObjects\GEP.SMART.Requisition.DataAccessObjects.csproj", "{FFCEBC8A-75DA-4835-A9D6-671AC46B2BC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GEP.SMART.Requisition.BusinessEntities", "..\BusinessObjects\GEP.SMART.Requisition.BusinessEntities\GEP.SMART.Requisition.BusinessEntities.csproj", "{D2AA0286-F31C-4989-9E0C-5E1588A288E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GEP.SMART.Requisition.BusinessObjects.Test", "..\Tests\GEP.SMART.Requisition.BusinessObjects.Test\GEP.SMART.Requisition.BusinessObjects.Test.csproj", "{E3A6A4CA-134D-4CA6-A7D5-BAE0491C939B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GEP.SMART.Requisition.DataAcessObjects.Test", "..\Tests\GEP.SMART.Requisition.DataAcessObjects.Test\GEP.SMART.Requisition.DataAcessObjects.Test.csproj", "{A5958DF8-AC61-458E-BBC2-4646EEDB1AEA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GEP.SMART.Requisition.API.Test", "..\Tests\GEP.SMART.Requisition.API.Test\GEP.SMART.Requisition.API.Test.csproj", "{294F8EF8-DBBE-4248-9D3C-E897B795C34C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GEP.SMART.Settings", "..\BusinessObjects\GEP.SMART.Settings\GEP.SMART.Settings.csproj", "{7C43E884-6AB0-4FD5-AA97-4E3AF410F610}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GEP.SMART.Settings.Entities", "..\BusinessObjects\GEP.SMART.Settings.Entities\GEP.SMART.Settings.Entities.csproj", "{570CA01E-41A2-444F-BA47-DB99CE8736FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EA6830C-D82A-47C0-8BBA-0DCA8E4A482C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EA6830C-D82A-47C0-8BBA-0DCA8E4A482C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EA6830C-D82A-47C0-8BBA-0DCA8E4A482C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EA6830C-D82A-47C0-8BBA-0DCA8E4A482C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B930661-8096-4B06-AAEE-7F9E73652D76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B930661-8096-4B06-AAEE-7F9E73652D76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B930661-8096-4B06-AAEE-7F9E73652D76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B930661-8096-4B06-AAEE-7F9E73652D76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFCEBC8A-75DA-4835-A9D6-671AC46B2BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFCEBC8A-75DA-4835-A9D6-671AC46B2BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFCEBC8A-75DA-4835-A9D6-671AC46B2BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFCEBC8A-75DA-4835-A9D6-671AC46B2BC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2AA0286-F31C-4989-9E0C-5E1588A288E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2AA0286-F31C-4989-9E0C-5E1588A288E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2AA0286-F31C-4989-9E0C-5E1588A288E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2AA0286-F31C-4989-9E0C-5E1588A288E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3A6A4CA-134D-4CA6-A7D5-BAE0491C939B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3A6A4CA-134D-4CA6-A7D5-BAE0491C939B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3A6A4CA-134D-4CA6-A7D5-BAE0491C939B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3A6A4CA-134D-4CA6-A7D5-BAE0491C939B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5958DF8-AC61-458E-BBC2-4646EEDB1AEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5958DF8-AC61-458E-BBC2-4646EEDB1AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5958DF8-AC61-458E-BBC2-4646EEDB1AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5958DF8-AC61-458E-BBC2-4646EEDB1AEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{294F8EF8-DBBE-4248-9D3C-E897B795C34C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{294F8EF8-DBBE-4248-9D3C-E897B795C34C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{294F8EF8-DBBE-4248-9D3C-E897B795C34C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{294F8EF8-DBBE-4248-9D3C-E897B795C34C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C43E884-6AB0-4FD5-AA97-4E3AF410F610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C43E884-6AB0-4FD5-AA97-4E3AF410F610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C43E884-6AB0-4FD5-AA97-4E3AF410F610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C43E884-6AB0-4FD5-AA97-4E3AF410F610}.Release|Any CPU.Build.0 = Release|Any CPU
+		{570CA01E-41A2-444F-BA47-DB99CE8736FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{570CA01E-41A2-444F-BA47-DB99CE8736FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{570CA01E-41A2-444F-BA47-DB99CE8736FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{570CA01E-41A2-444F-BA47-DB99CE8736FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9EA6830C-D82A-47C0-8BBA-0DCA8E4A482C} = {D7D70757-9EF6-41B9-A692-BF6AC5048A76}
+		{6B930661-8096-4B06-AAEE-7F9E73652D76} = {516A05A4-786C-439F-BA04-DBB0A46E9BA1}
+		{FFCEBC8A-75DA-4835-A9D6-671AC46B2BC4} = {516A05A4-786C-439F-BA04-DBB0A46E9BA1}
+		{D2AA0286-F31C-4989-9E0C-5E1588A288E5} = {04BFD312-F5BD-4CCF-82E9-2B5E4CBFFD28}
+		{E3A6A4CA-134D-4CA6-A7D5-BAE0491C939B} = {C9C5257C-9997-4D1E-8694-FC20DC23BA6F}
+		{A5958DF8-AC61-458E-BBC2-4646EEDB1AEA} = {C9C5257C-9997-4D1E-8694-FC20DC23BA6F}
+		{294F8EF8-DBBE-4248-9D3C-E897B795C34C} = {C9C5257C-9997-4D1E-8694-FC20DC23BA6F}
+		{7C43E884-6AB0-4FD5-AA97-4E3AF410F610} = {516A05A4-786C-439F-BA04-DBB0A46E9BA1}
+		{570CA01E-41A2-444F-BA47-DB99CE8736FA} = {516A05A4-786C-439F-BA04-DBB0A46E9BA1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03B8E166-E75B-479C-AEFF-7DD73006841B}
+	EndGlobalSection
+EndGlobal

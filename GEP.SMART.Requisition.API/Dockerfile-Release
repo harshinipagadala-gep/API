@@ -1,0 +1,3 @@
+FROM __CoreRegistryImageName__
+COPY ./ /app
+ENTRYPOINT ["dotnet", "GEP.SMART.Requisition.API.dll"]
